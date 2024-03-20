@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Name
+    | Application Name & theme
     |--------------------------------------------------------------------------
     |
     | This value is the name of your application, which will be used when the
@@ -12,9 +12,7 @@ return [
     | other UI elements where an application name needs to be displayed.
     |
     */
-
     'name' => env('APP_NAME', 'Laravel'),
-
     /*
     |--------------------------------------------------------------------------
     | Application Environment

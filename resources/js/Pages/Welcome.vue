@@ -8,8 +8,27 @@ import GuestLayout from "@/Layouts/GuestLayout.vue";
     <GuestLayout>
         <v-container class="fill-height" fluid>
             <v-row no-gutters>
-                <v-col v-for="n in 3" :key="n" cols="12" sm="4">
-                    <v-sheet class="ma-2 pa-2"> One of three columns </v-sheet>
+                <v-col
+                    v-for="n in 3"
+                    :key="n"
+                    cols="12"
+                    sm="4"
+                    class="d-flex justify-center"
+                >
+                    <v-card class="ma-2 pa-2" rounded width="300" height="300">
+                        <v-card-title>One of three columns</v-card-title>
+                    </v-card>
+                </v-col>
+                <v-col
+                    v-for="n in 3"
+                    :key="n"
+                    cols="12"
+                    sm="4"
+                    class="d-flex justify-center"
+                >
+                    <v-card class="ma-2 pa-2" rounded width="300" height="300">
+                        <v-card-title>One of three columns</v-card-title>
+                    </v-card>
                 </v-col>
             </v-row>
         </v-container>
