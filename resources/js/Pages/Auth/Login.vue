@@ -36,12 +36,14 @@ const submit = () => {
                                 prepend-icon="mdi-account-circle"
                                 label="e-mail"
                                 density="compact"
+                                v-model="form.email"
                             />
                             <v-text-field
                                 prepend-icon="mdi-lock"
                                 append-icon="mdi-eye-off"
                                 label="password"
                                 density="compact"
+                                v-model="form.password"
                             />
                             <v-card-actions>
                                 <v-row class="px-5 justify-end">
