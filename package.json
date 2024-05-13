@@ -2,6 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
+        "setup": "composer install && npm install",
         "dev": "concurrently \"vite build --watch\" \"php artisan serve\"",
         "build": "vite build && vite build --ssr"
     },
@@ -19,6 +20,7 @@
     },
     "dependencies": {
         "@mdi/font": "^7.4.47",
+        "socket.io-client": "^4.7.5",
         "vuetify": "^3.5.9"
     }
 }
